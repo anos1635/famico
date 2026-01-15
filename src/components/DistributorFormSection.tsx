@@ -5,6 +5,7 @@
 +import { useLanguage } from '../contexts/LanguageContext';
 
  const DistributorFormSection = () => {
+ }
 +  const { t } = useLanguage();
    const [ref, inView] = useInView({
      triggerOnce: true,
@@ -12,6 +13,7 @@
    });
 
    return (
+   )
 -    <section className="py-20 bg-gray-50" ref={ref}>
 +    <section id="distributor" className="py-20 bg-gray-50" ref={ref}>
        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">

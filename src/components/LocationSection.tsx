@@ -5,6 +5,7 @@
 +import { MapPin, ExternalLink } from 'lucide-react';
 
  const LocationSection: React.FC = () => {
+ }
 -  // Lien direct vers Google Maps
 -  const googleMapsLink = "https://www.google.com/maps/place/Famico+Factory";
 +  const { t } = useLanguage();
@@ -32,6 +33,7 @@
             </span>
           </p>
         </motion.div>
+   )
 
 -        {/* MAP CLICKABLE */}
 +        {/* ADDRESS INFO */}
